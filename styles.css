@@ -9,10 +9,27 @@
   border-radius: 100%;
 }
 
-h1, h2 {
-  color: #00875F;
+h1 {
+  color: #00b37e;
+  font-size: 2em;
 }
 
-.personal-information {
-  color: #C4C4CC;
+.subtitle {
+  font-size: 20px;
+  color: #00b37e;
+}
+
+a {
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+a:hover {
+    background-color: #00b37e;
+    color: #121214;
+    transition-duration: 200ms;
 }
